@@ -35,7 +35,7 @@ closeButton.onclick = menuClose;
 let contactsBackground = document.getElementsByTagName('aside')[0];
 let sources = document.querySelectorAll('.source-text');
 let box = document.getElementsByClassName('icons-sources')[0];
-let icons = document.querySelectorAll('.icon');
+let icons = document.querySelectorAll('.icons-sources .icon');
 
 // mouse over
 
@@ -76,6 +76,7 @@ const contactsHide = function() {
 };
 
 contactsBackground.onmouseout = contactsHide;
+
 
 // INFORMATION
 
