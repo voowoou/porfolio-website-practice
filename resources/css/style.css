@@ -1,6 +1,6 @@
 /* INFORMATION */
 
-.information {
+#information {
     width: 78%;
     margin: 0 auto;
 }
@@ -45,7 +45,7 @@ h1:hover {
 
 /* FRONTEND */
 
-.frontend {
+#frontend {
     height: 100%;
 }
 
@@ -84,7 +84,7 @@ h2 {
 
 .nothing {
     grid-area: 1 / 2 / 2 / 3;
-    font-family: Inter, serif;
+    font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 2rem;
     color: #333333;
@@ -135,7 +135,7 @@ h2 {
 
 /* DESIGN */
 
-.design .works {
+#design .works {
     margin-bottom: 25vh;
 }
 
@@ -166,22 +166,22 @@ h2 {
 
 /* PHOTO */
 
-.photo {
+#photo {
     background-image: url("../images/photo3.png");
     background-size: cover;
     height: 1024px;
     padding-top: 3.9vh;
 }
 
-.photo h2 {
+#photo h2 {
     color: #FFF;
     text-shadow: 1px 1px 40px rgba(0, 0, 0, 0.6);
 }
 
-.photo p {
+#photo p {
     margin: 22% 0 0 11vw;
     width: 78%;
-    font-family: Inter, serif;
+    font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 2rem;
     line-height: 44px;
@@ -261,6 +261,9 @@ nav {
     font-weight: 500;
     font-size: 9.375vh;
     width: 100%;
+}
+
+#menu a {
     color: #333333;
 }
 
@@ -294,7 +297,7 @@ aside {
 }
 .source-text {
     display: none;
-    font-family: Inter, serif;
+    font-family: Inter, sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
     color: #333333;

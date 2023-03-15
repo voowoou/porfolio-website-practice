@@ -1,0 +1,197 @@
+h1 {
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #333333;
+    margin: 4vh 11vw;
+}
+
+section {
+    margin: 4vh 11vw;
+    display: flex;
+}
+
+section div {
+    width: 35%;
+    margin-right: 5%;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    width: 40%;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 36px;
+    color: #333333;
+}
+
+
+/* NAVIGATION */
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: rgba(250, 250, 250, 0.8);
+    backdrop-filter: blur(25px);
+    height: 100%;
+    width: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+#menu-btn {
+    width: 54%;
+    height: 1.76%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+#menu-btn span {
+    display: block;
+    width: 100%;
+    height: 33.3%;
+    background-color: #333333;
+    border-radius: 1px;
+    transform: none;
+    position: relative;
+    bottom: auto;
+}
+
+#close-btn {
+    display: none;
+    cursor: pointer;
+}
+
+#close-btn:before,
+#close-btn:after {
+    content: "";
+    position: absolute;
+    right: 1%;
+    width: 2.6%;
+    height: 0.6%;
+    background-color: #333333;
+}
+
+#close-btn:before {
+    transform: rotate(45deg);
+}
+
+#close-btn:after {
+    transform: rotate(-45deg);
+}
+
+#menu-list {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 37%;
+    height: 58%;
+}
+
+#menu-list li {
+    font-family: 'Radio Canada', sans-serif;
+    font-weight: 500;
+    font-size: 9.375vh;
+    width: 100%;
+}
+
+#menu a {
+    color: #333333;
+}
+
+
+/* CONTACTS */
+
+aside {
+    right: 0;
+    top: 0;
+    position: fixed;
+    background: rgba(250, 250, 250, 0.6);
+    backdrop-filter: blur(15px);
+    height: 100%;
+    width: 4%;
+    display: flex;
+    align-items: center;
+}
+
+.icons-sources {
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons-sources .icon {
+    font-size: 2vw;
+    position: relative;
+}
+.source-text {
+    display: none;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+.source-text:hover {
+    text-decoration: underline;
+}
+
+
+/* ICONS */
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?3diwon#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?3diwon') format('truetype'),
+    url('../fonts/icomoon.woff?3diwon') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon', sans-serif !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-whatsapp:before {
+    content: "\e900";
+    color: #333333;
+}
+.icon-email:before {
+    content: "\e903";
+    color: #333333;
+}
+.icon-github:before {
+    content: "\e906";
+    color: #333333;
+}
+.icon-instagram:before {
+    content: "\e908";
+    color: #333333;
+}
+.icon-telegram:before {
+    content: "\e90b";
+    color: #333333;
+}
