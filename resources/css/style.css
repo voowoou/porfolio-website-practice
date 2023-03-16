@@ -1,8 +1,7 @@
 /* INFORMATION */
 
 #information {
-    width: 78%;
-    margin: 0 auto;
+    padding-top: 36vh;
 }
 
 h1,
@@ -14,7 +13,7 @@ h2 {
 
 h1 {
     text-align: center;
-    margin: 36vh 0 53vh 0;
+    margin-bottom: 53vh;
     font-size: 6rem;
 }
 
@@ -46,18 +45,19 @@ h1:hover {
 /* FRONTEND */
 
 #frontend {
+    padding-top: 3.4vh;
     height: 100%;
 }
 
 h2 {
     font-size: 4rem;
-    margin: 3.4vh 0 8.9vh 11vw;
+    margin: 0 0 1vh 11vw;
 }
 
 .works {
-    margin-left: 11vw;
+    margin: 0 11vw;
     display: grid;
-    grid-template-columns: 2fr 7.5fr;
+    grid-template-columns: 1.5fr 7.5fr;
     height: 80vh;
 
 }
@@ -65,7 +65,7 @@ h2 {
 .years {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    gap: 7.8%;
+    gap: 7.8% 0;
     justify-items: left;
     align-items: center;
     font-family: 'Radio Canada', sans-serif;
@@ -134,6 +134,10 @@ h2 {
 
 
 /* DESIGN */
+
+#design {
+    padding-top: 3.4vh;
+}
 
 #design .works {
     margin-bottom: 25vh;
