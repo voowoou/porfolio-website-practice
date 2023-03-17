@@ -80,6 +80,7 @@ contactsBackground.onmouseout = contactsHide;
 
 // INFORMATION
 
+let information = document.getElementById('information')
 let nikolaiBik = document.querySelector('h1')
 let about = document.getElementById('about');
 
@@ -87,10 +88,11 @@ about.style.display = 'none';
 
 const viewOrClose = function() {
     if (about.style.display === 'none') {
-        nikolaiBik.style.margin = '27.3vh 0 8.8vh';
+        information.style.paddingTop = '27vh';
+        nikolaiBik.style.marginBottom = '8.8vh';
         about.style.display = 'block';
     } else {
-        nikolaiBik.style.margin = '36vh 0 53vh 0';
+        nikolaiBik.style.marginBottom = '60vh';
         about.style.display = 'none';
     }
 };
