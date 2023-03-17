@@ -4,6 +4,7 @@ let openButton = document.getElementById('menu-btn');
 let menuBackground = document.getElementById('menu');
 let list = document.getElementById('menu-list');
 let closeButton = document.getElementById('close-btn');
+let menuItems = document.querySelectorAll('#menu a');
 
 // open button
 
@@ -28,6 +29,12 @@ const menuClose = function() {
 };
 
 closeButton.onclick = menuClose;
+
+// close when choose section
+
+menuItems.forEach(item => {
+   item.onclick = menuClose;
+});
 
 
 // CONTACTS
